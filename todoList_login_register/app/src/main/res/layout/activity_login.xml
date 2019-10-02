@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.LoginActivity">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#5499C7"
+        android:gravity="center"
+        android:text="To-Do List" />
+
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textColor="#566573"
+        android:gravity="center"
+        android:text="| Login | Register |"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:id="@+id/login_email"
+        android:hint="E-mail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/login_pw"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="로그인"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/register_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="회원가입"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginTop="170dp"
+        android:text="®CopyRight Irene Lyeo" />
+</LinearLayout>
