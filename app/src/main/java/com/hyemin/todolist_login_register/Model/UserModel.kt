@@ -4,7 +4,6 @@ import android.content.Context
 import com.hyemin.todolist_login_register.Room.User
 import com.hyemin.todolist_login_register.Room.UserDao
 import com.hyemin.todolist_login_register.Room.UserDatabase
-import java.security.AccessControlContext
 
 class UserModel(private val context: Context) {
     private var database: UserDatabase = UserDatabase.getInstance(context)
