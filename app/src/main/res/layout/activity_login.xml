@@ -33,7 +33,7 @@
         android:id="@+id/login_email"
         android:hint="E-mail"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_marginTop="40dp"
         android:layout_margin="20dp"/>
 
@@ -41,7 +41,7 @@
         android:id="@+id/login_pw"
         android:hint="Password"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_margin="20dp"
         android:inputType="textPassword"/>
 

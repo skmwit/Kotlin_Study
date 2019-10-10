@@ -29,9 +29,6 @@ class LoginActivity : AppCompatActivity() {
                 val email = App.prefs.email
                 val pw = App.prefs.passwd
 
-                //login_email.setText(App.prefs.email)
-                //login_pw.setText(App.prefs.passwd)
-
                 when {
                     userModel!!.checkLogin(email, pw) -> {
                         Toast.makeText(
@@ -46,6 +43,9 @@ class LoginActivity : AppCompatActivity() {
                     }
 
                 }
+            }
+            else->{
+                login_email.setText(App.prefs.email)
             }
         }
 
