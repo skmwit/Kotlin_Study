@@ -1,7 +1,5 @@
 package com.hyemin.todolist_login_register.View
 
-import android.app.Activity
-import android.app.Activity.*
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -14,8 +12,6 @@ import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
     private var userModel: UserModel? = null
-
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

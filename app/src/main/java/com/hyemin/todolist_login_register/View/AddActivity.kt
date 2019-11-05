@@ -4,14 +4,11 @@ import android.app.DatePickerDialog
 import android.app.TimePickerDialog
 import android.content.Intent
 import android.os.Bundle
-import android.widget.DatePicker
 import androidx.appcompat.app.AppCompatActivity
 import com.hyemin.todolist_login_register.Model.MemoModel
 import com.hyemin.todolist_login_register.R
 import com.hyemin.todolist_login_register.Room.Memo
-import com.hyemin.todolist_login_register.Room.MemoDatabase
 import kotlinx.android.synthetic.main.activity_add.*
-import java.text.SimpleDateFormat
 import java.util.*
 
 class AddActivity: AppCompatActivity() {
@@ -23,7 +20,6 @@ class AddActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add)
-
         memoModel = MemoModel(applicationContext)
         //memoDb = MemoDatabase.getInstance(this)
 
@@ -69,9 +65,4 @@ class AddActivity: AppCompatActivity() {
 
         }
     }
-
-    /*override fun onDestroy() {
-        memoDb?.destroyInstance()
-        super.onDestroy()
-    }*/
 }
